@@ -5,3 +5,43 @@ body {
     margin: 0;
     padding: 0;
 }
+
+body .container-fluid .row {
+    justify-content: center;
+}
+
+body .jumbotron {
+    justify-content: center;
+    text-align: center;
+}
+
+body .container-fluid .row .card {
+    justify-content: center;
+    text-align: center;
+    width: 20rem;
+}
+
+body .container-fluid .row .card .card-body .card-image {
+    width: fit;
+}
+
+body .container-fluid .row .card .card-body .audio-controls {
+    width: 15rem;
+}
+
+@media (min-width: 576px) {
+    body .container-fluid .row .card {
+        text-align: center;
+        width: 18rem;
+    }
+}
+
+@media (min-width: 768px) {
+    body .container-fluid .row .card {
+        width: 18rem;
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
